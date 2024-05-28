@@ -1,0 +1,32 @@
+
+.scroll-bar {
+    padding: 5px;
+    height: 80vh; 
+    width: 45vw;
+    border: 1px solid grey;
+    font-family: 'GestaRegular', Arial, Helvetica, sans-serif;
+    overflow: auto;
+    border-radius: 8px;
+    background-color: #e8efff;
+    box-shadow: inset;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a2fcbd; /* Corrected the color value */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8387cf;
+}

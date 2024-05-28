@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Calender from "./calender.js";
+import "./calender.css";
+import Side_scroll from "./side_scroll.js";
+import "./side_scroll.css";
+import Nav from "./nav.js";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <div style={{display:"flex"}}>
+      <Side_scroll style={{display:"inline"}} />
+      <Calender style={{display:"inline"}} />
+      </div>
     </div>
   );
 }

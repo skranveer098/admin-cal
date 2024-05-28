@@ -1,0 +1,62 @@
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin: 10px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.57rem;
+}
+
+.note-has-grid .single-note-item .card {
+    border-radius: 10px;
+}
+
+.note-has-grid .single-note-item .side-stick {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    left: 0;
+    background-color: rgba(82, 95, 127, .5);
+}
+
+.note-has-grid .single-note-item.all-category .point {
+    color: rgba(82, 95, 127, .5);
+}
+
+.note-title {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.note-date {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+.note-content {
+    margin-top: 1rem;
+}
+
+.note-inner-content {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
